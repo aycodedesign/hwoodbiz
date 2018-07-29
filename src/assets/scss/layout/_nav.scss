@@ -16,13 +16,24 @@
 		@include color-typography(invert);
 		position: absolute;
 		width: 100%;
-		// max-width: calc(100% - #{_size(element-margin) * 2});
-		padding: 1em;
+		// padding: 1em;
 		background-color: _palette(invert, bg-alt);
 		border-top-left-radius: _size(border-radius-main);
 		border-top-right-radius: _size(border-radius-main);
 		cursor: default;
 		text-align: center;
+
+		.logo {
+			position: absolute;
+			left: -30px;
+			margin: 0;
+		}
+
+		.registration {
+			position: absolute;
+			right: 0px;
+			color: _palette(myblue);
+		}
 
 		& + #main {
 			padding-top: 4.25em;
@@ -32,13 +43,14 @@
 			margin: 0;
 			padding: 0;
 			list-style: none;
+			height: 75px;
 
 			li {
 				@include vendor('transition', (
 					'margin #{_duration(transition)} ease'
 				));
 				display: inline-block;
-				margin: 0 0.35em;
+				margin: .5em 0.35em;
 				padding: 0;
 				vertical-align: middle;
 

@@ -41,44 +41,39 @@ class Index extends React.Component {
 
         <div id="main">
 
-          <section id="intro" className="main">
+          <section id="staff" className="main special">
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>STAFF</h2>
                 </header>
-                <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-                adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-                Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
-                <ul className="actions">
-                  <li><Link to="/generic" className="button">Learn More</Link></li>
-                </ul>
+                  <ul className="features">
+                    <li>
+                      <span className="icon major style1 fa-code"></span>
+                      <h3>Ipsum consequat</h3>
+                      <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                    </li>
+                    <li>
+                      <span className="icon major style3 fa-copy"></span>
+                      <h3>Amed sed feugiat</h3>
+                      <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                    </li>
+                    <li>
+                      <span className="icon major style5 fa-diamond"></span>
+                      <h3>Dolor nullam</h3>
+                      <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                    </li>
+                  </ul>
               </div>
-              <span className="image"><img src={pic01} alt="" /></span>
+              {/* <span className="image"><img src={pic01} alt="" /></span> */}
             </div>
           </section>
 
-          <section id="first" className="main special">
+          <section id="story" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>STORY</h2>
             </header>
-            <ul className="features">
-              <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-              </li>
-              <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-              </li>
-              <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-              </li>
-            </ul>
+
             <footer className="major">
               <ul className="actions">
                 <li><Link to="/generic" className="button">Learn More</Link></li>
@@ -86,9 +81,9 @@ class Index extends React.Component {
             </footer>
           </section>
 
-          <section id="second" className="main special">
+          <section id="videos" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
+              <h2>VIDEOS</h2>
               <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
               posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
             </header>
@@ -122,9 +117,9 @@ class Index extends React.Component {
             </footer>
           </section>
 
-          <section id="cta" className="main special">
+          <section id="auditions" className="main special">
             <header className="major">
-              <h2>Congue imperdiet</h2>
+              <h2>AUDITION</h2>
               <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
               posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
             </header>
