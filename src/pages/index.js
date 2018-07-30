@@ -7,6 +7,14 @@ import Waypoint from 'react-waypoint'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic01 from '../assets/images/pic01.jpg'
+import Bryan from '../assets/images/bryan.png'
+import Alec from '../assets/images/alec.png'
+import Kim from '../assets/images/kim.png'
+import Cayla from '../assets/images/cayla.png'
+import Corey from '../assets/images/corey.png'
+// import Kenny from '../assets/images/kenny.png'
+// import Sheila from '../assets/images/sheila.png'
+// import Jane from '../assets/images/jane.png'
 
 class Index extends React.Component {
   constructor(props) {
@@ -41,7 +49,7 @@ class Index extends React.Component {
 
         <div id="main">
 
-          <section id="staff" className="main special">
+          <section id="staff" className="main special bg-black">
             <div className="spotlight">
               <div className="content">
                 <header className="major">
@@ -49,23 +57,50 @@ class Index extends React.Component {
                 </header>
                   <ul className="features">
                     <li>
-                      <span className="icon major style1 fa-code"></span>
-                      <h3>Ipsum consequat</h3>
-                      <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                      <img src={Bryan} alt="Bryan Clawson"/>
+                      <h3>Bryan Clawson</h3>
+                      <p>Director/Founder</p>
                     </li>
                     <li>
-                      <span className="icon major style3 fa-copy"></span>
-                      <h3>Amed sed feugiat</h3>
-                      <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                      <img src={Alec} alt="Alec Clawson"/>
+                      <h3>Alec Clawson</h3>
+                      <p>Co-founder/Choreographer</p>
                     </li>
                     <li>
-                      <span className="icon major style5 fa-diamond"></span>
-                      <h3>Dolor nullam</h3>
-                      <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                      <img src={Kim} alt="Kim Green"/>
+                      <h3>Kim Green</h3>
+                      <p>Head of Production</p>
+                    </li>
+                    <li>
+                      <img src={Cayla} alt="Cayla D'ana Evans"/>
+                      <h3>Cayla D'ana Evans</h3>
+                      <p>Assistant Choreographer</p>
+                    </li>
+                    <li>
+                      <img src={Corey} alt="Corey Evans"/>
+                      <h3>Corey Evans</h3>
+                      <p>Production Assistant</p>
+                    </li>
+                    <li>
+                      {/* <img src={Jane} alt="Jane Clawson"/> */}
+                      <span className="icon major style1 fa-code"/>
+                      <h3>Jane Clawson</h3>
+                      <p>Chief Financial Officer</p>
+                    </li>
+                    <li>
+                      {/* <img src={Kenny} alt="Kenny Brooks"/> */}
+                      <span className="icon major style1 fa-code"/>
+                      <h3>Kenny Brooks</h3>
+                      <p>Events Coordinator</p>
+                    </li>
+                    <li>
+                      {/* <img src={Sheila} alt="Sheila Brooks"/>                       */}
+                      <span className="icon major style1 fa-code"/>
+                      <h3>Sheila Brooks</h3>
+                      <p>Events Coordinator</p>
                     </li>
                   </ul>
               </div>
-              {/* <span className="image"><img src={pic01} alt="" /></span> */}
             </div>
           </section>
 
